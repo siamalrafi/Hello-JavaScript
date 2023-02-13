@@ -24,4 +24,4 @@ var data = fs.readFile('input.txt',function(err, data){
     if(err) return 
 
 var fs = require("fs");
-var data = fs.readFile('input.txt',function(err, data
+var data = fs.readFile('input.txt',function(
