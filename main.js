@@ -25,4 +25,3 @@ var data = fs.readFile('input.txt',function(err, data){
 
 var fs = require("fs");
 var data = fs.readFile('input.txt',function(err, data){
-    
