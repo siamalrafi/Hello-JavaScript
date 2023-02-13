@@ -5,4 +5,4 @@ fs.readFile('input.txt', function (err, data) {
     else { console.log(data.toString()); }
 });
 
-console.log("
+console.
