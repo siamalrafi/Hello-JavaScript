@@ -24,8 +24,4 @@ var data = fs.readFile('input.txt',function(err, data){
     if(err) return 
 
 var fs = require("fs");
-var data = fs.readFile('input.txt',function(err, data){git add .
-    git commit -mgit add .
-    git commit -m"This is the python story"
-    git push
-    
+var data = fs.readFile('input.txt',function(err, data){git add 
