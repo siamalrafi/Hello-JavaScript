@@ -1,6 +1,7 @@
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const points = [40, 100, 1, 5, 25, 10];
+
+points.sort(function(){return 0.5 - Math.random()});
 
 
-fruits.pop()
-console.log(fruits);
 
+console.log(points);
