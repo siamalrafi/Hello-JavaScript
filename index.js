@@ -1,7 +1,10 @@
-const points = [40, 100, 1, 5, 25, 10];
+const numbers = [45, 4, 9, 16, 25];
 
-points.sort(function(){return 0.5 - Math.random()});
+let x = 0;
 
+for (let i = 0; i < numbers.length; i++) {
+    x += numbers[i];
 
+};
 
-console.log(points);
+console.log(x);
