@@ -1,1 +1,1 @@
-console.log('This is a test case.');
+console.log('JavaScript Errors');
