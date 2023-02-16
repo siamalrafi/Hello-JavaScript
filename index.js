@@ -1,1 +1,1 @@
-console.log('JavaScript Math Object');
+console.log('This is a test case.');
