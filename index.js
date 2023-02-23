@@ -1,4 +1,3 @@
-console.log('JavaScript Errors');
-
-
+console.log('object');
+console.log('object');
 console.log('object');
