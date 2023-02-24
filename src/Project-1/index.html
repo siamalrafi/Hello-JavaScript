@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_1</title>
+</head>
+
+<body>
+    <h1>This is the JavaScript Project_1</h1>
+    <h2>In this Project I will try to use JavaScript Error functionality.</h2>
+
+    <input type="text" name="input" id="input">
+    <button onclick="myFunction()" type="submit">Submit</button>
+    <p id="massage"></p>
+</body>
+<script>
+
+
+    function myFunction() {
+        let inputValue = document.getElementById('input').value;
+        let massage = document.getElementById('massage');
+        massage.innerHTML = '';
+
+        try {
+            if (inputValue.trim() == '') throw 'input value empty';
+            if (isNaN(inputValue)) throw 'input value must be a number';
+            inputValue = Number(inputValue);
+            if (inputValue <= 5) throw 'Input is too short';
+            if (inputValue >= 5) throw 'Input is too long';
+
+        } catch (err) {
+            massage.innerHTML = 'error: ' + err;
+
+        }
+
+    }
+
+
+
+
+
+
+
+</script>
+
+</html>
