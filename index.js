@@ -1,4 +1,5 @@
-let x = 'This is the let '
+let x = 'JavaScript , This is the let '
 
 
 console.log(x);
+
