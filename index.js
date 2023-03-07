@@ -1,4 +1,3 @@
-let x = 'JavaScript , This is the let '
-console.log('x');
-console.log(x);
-
+//  * this isthe next level code
+// ? nothing can easy to achieve
+// ! sorry to say I don't know about this one
