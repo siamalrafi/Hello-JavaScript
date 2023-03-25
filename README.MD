@@ -9,4 +9,4 @@ This is the Hello-JavaScript.
  * learn more about JavaScript.
 
 
-Thank you 💓
+Thank you JavaScript 💓
